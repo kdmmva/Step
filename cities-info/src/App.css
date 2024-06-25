@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000; 
+  color: #ffffff; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.city-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city-card {
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  background-color: #000000; 
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.8); /* White glowing effect */
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+  position: relative;
+}
+
+.city-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 1), 0 0 50px rgba(255, 255, 255, 1); /* Stronger white glowing effect */
+  background-color: #1b1b1b; 
+  border-color: #dcdcdc;
+}
+
+.city-card h3 {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  transition: color 0.2s ease;
+}
+
+.city-card p {
+  color: #ecf0f1; 
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 10px;
+  transition: color 0.2s ease;
+}
+
+.city-card p strong {
+  color: #ffffff; 
+  font-weight: 400;
+}
+
+.city-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.city-card:hover h3, .city-card:hover p {
+  color: #ecf0f1;
+}
