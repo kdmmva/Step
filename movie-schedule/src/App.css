@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.movie-card h3 {
+  color: #444;
+  font-size: 1.5em;
+}
+
+.movie-card p {
+  color: #666;
+  font-size: 1em;
+}
+
+.movie-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-card li {
+  background-color: #efefef;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px 0;
+}
