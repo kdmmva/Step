@@ -13,11 +13,11 @@ export default function Home() {
   }, [location.state]); 
 
   return (
-    <div>
+    <div className="bg-gray-50 dark:bg-gray-900 min-h-screen">
       <header>
         <Navbar isSignedIn={isSignedIn} />
       </header>
-      <main>
+      <main className="container mx-auto p-4">
         <Outlet />
       </main>
     </div>
