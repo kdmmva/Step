@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-200;
+}
+
+.header {
+  @apply bg-blue-600 p-4 text-white;
+}
+
+.form-container {
+  @apply bg-white p-8 rounded shadow-md w-full max-w-md;
+}
+
+.form-input {
+  @apply border p-2 w-full rounded;
+}
+
+.form-button {
+  @apply bg-blue-600 text-white p-2 rounded w-full;
+}
+
+.task-list {
+  @apply mt-8 w-full max-w-md;
+}
+
+.task-item {
+  @apply bg-white p-4 rounded shadow-md flex justify-between;
+} */
