@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcDemo";
+
+package service;
+
+message MessageRequest {
+    string message = 1;
+}
+
+message MessageReply {
+    string reply = 1;
+}
+
+service ServiceA {
+    rpc SendMessageToB (MessageRequest) returns (MessageReply);
+}
