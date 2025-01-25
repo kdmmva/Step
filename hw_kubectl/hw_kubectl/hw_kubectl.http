@@ -1,0 +1,6 @@
+@hw_kubectl_HostAddress = http://localhost:5089
+
+GET {{hw_kubectl_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
